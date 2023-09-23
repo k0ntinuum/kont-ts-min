@@ -14,6 +14,6 @@ let pixel_height = canvas.height / global_rows;
 let pixel_width = canvas.width / global_cols;
 let hue_field = new Uint8Array(global_rows * global_cols);
 let inc = 2.0 / 255.0;
-let posterized = true;
+let posterized = false;
 let boundary = 127;
 let delay = 100;
