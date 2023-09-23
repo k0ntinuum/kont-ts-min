@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="index.css" rel="stylesheet" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+        </style> 
+    </head>
+    <canvas id="canvas" width=1000 height=1000 onclick="applyChoices()"></canvas>
+    <br>
+    <button onclick="layer_system = randomLayerSystem(num_layers);"> S </button>
+    <button onclick="resetFilters()"> F </button>
+    <button onclick="togglePosterized()"> P </button>
+    <button onclick="nextRowOption()"> R </button>
+    <!-- <button onclick="nextDelayOption()"> D </button> -->
+    <br>
+    <script src="filter.js"></script>
+    <script src="layer.js"></script>
+    <script src="global.js"></script>
+    <script src="manager.js"></script>
+    <script src="world.js"></script>
+    <script src="plot.js"></script>
+    <script src="input.js"></script>
+    <script src="main.js"></script>
+    
+</html>
