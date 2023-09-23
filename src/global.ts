@@ -25,11 +25,6 @@ let inc = 2.0/255.0;
  
 let posterized = true;
 let boundary = 127;
-
-
-
-const delayOptions = [0,50, 100,150];
-let currentDelayOption = 2;
 let delay = 100;
 
 
