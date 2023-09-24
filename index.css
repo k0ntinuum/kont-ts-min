@@ -3,17 +3,19 @@
 button {
     background-color: #f60101;
     border: none;
-    color: white;
+    color: rgb(3, 3, 3);
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+    font-size: 30px;
     margin: 4px 2px;
     border-radius: 50%;
 }
 
 
 body {
-    font-family: 'Barriecito', cursive;
+    font-family: 'Xanh Mono', monospace;
 }
